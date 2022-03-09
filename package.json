@@ -1,0 +1,31 @@
+{
+  "name": "@stefanracic/tailwind-next",
+  "version": "1.0.0",
+  "description": "A Tailwind that lets you target subsequent-sibling or \"next\" element",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/racha/tailwind-next.git"
+  },
+  "keywords": [
+    "tailwindcss",
+    "tailwind",
+    "next",
+    "subsequent",
+    "sibling",
+    "tilde",
+    "selector"
+  ],
+  "author": "Stefan Racic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/racha/tailwind-next/issues"
+  },
+  "homepage": "https://github.com/racha/tailwind-next#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.7"
+  }
+}
