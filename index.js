@@ -2,7 +2,7 @@ const plugin = require('tailwindcss/plugin');
 
 const nextSelect = plugin(function ({ addVariant, theme, e }) {
   const nextTags = theme('nextTags');
-  Object.entries(childTags).map(([key, value]) => {
+  Object.entries(nextTags).map(([key, value]) => {
     addVariant(`next-${key}`, ({ modifySelectors, separator }) => {
       modifySelectors(({ className }) => {
         const newClass = e(`next-${key}${separator}${className}`);
@@ -14,6 +14,7 @@ const nextSelect = plugin(function ({ addVariant, theme, e }) {
 {
   theme: {
     nextTags: {
+      all: '*',
       html: "html",
       base: "base",
       head: "head",

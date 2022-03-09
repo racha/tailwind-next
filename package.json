@@ -1,6 +1,6 @@
 {
   "name": "@stefanracic/tailwind-next",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Tailwind that lets you target subsequent-sibling or \"next\" element",
   "main": "index.js",
   "scripts": {
